@@ -4,11 +4,10 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "start:safe": "node -e \"console.log('\\n⚠️  Çoklu instance sorununu önlemek için lütfen aşağıdaki komutlardan birini kullanın:\\n\\nWindows (PowerShell):\\n  .\\\\scripts\\\\start-expo.ps1\\n\\nLinux/Mac (Bash):\\n  ./scripts/start-expo.sh\\n')\"",
-    "stop": "node -e \"console.log('\\n⚠️  Expo process\\\'lerini durdurmak için lütfen aşağıdaki komutlardan birini kullanın:\\n\\nWindows (PowerShell):\\n  .\\\\scripts\\\\stop-expo.ps1\\n\\nLinux/Mac (Bash):\\n  ./scripts/stop-expo.sh\\n')\"",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "clean": "expo start --clear"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
